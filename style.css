@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(13, 51, 138);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    padding:0 1rem;
+    background: white;
+    border-radius: 1rem;
+}
+.header{
+    padding: 2rem .75rem;
+    display: flex;
+    align-items: center;
+}
+
+.header input{
+    border: none; 
+    height: 1.25rem;
+    font-size: 20px;
+}
+
+.header button svg{
+    height: 1.25rem;
+    width: 1.5rem;
+}
+.header svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.header button{
+    background-color: rgb(176, 240, 240);
+    border: none;
+    border-radius: 1rem;
+    padding: .25rem;
+    transition: all .5s ease-in;
+    cursor: pointer;
+}
+
+.header button:hover{
+    background-color: black;
+    fill: white;
+}
+
+input:active, input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+/******Middle Section*****/
+
+.weather-box img{
+    height: 13rem;
+}
+
+.weather-box{
+    margin-top:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin:0;
+}
+
+form input[type='submit']{
+    display: none;
+}
+
+.description{
+    margin-top: 1rem;
+}
+.weather-condition{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.temperature{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.bottom-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.icon svg{
+    height: 2.25rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.wind, .humidity{
+    display: flex;
+    gap: .75rem;
+    padding: 2rem 0;
+}
